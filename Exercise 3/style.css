@@ -1,0 +1,55 @@
+p
+{
+ background-color: red;
+ color: white;
+ font-family: arial
+ font-size: 22pt;
+}
+
+p.maintext
+{
+ background-color: blue;
+ color: white;
+ font-family: arial
+ font-size: 22pt;
+}
+
+a
+{
+ background-color: white;
+ color: red;
+}
+
+a:hover
+{
+ background-color: white;
+ color: blue;
+}
+
+a.secret
+{
+  background-color: black;
+  color: black;
+}
+
+a.secret:hover
+{
+ background-color: white;
+ color: blue;
+}
+
+img {
+    float: left;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+body
+{
+ background-color: black;
+ background-image: url(1556323405145.png);
+ background-size: 20%;
+ background-repeat: no-repeat;
+ background-position: bottom;
+}
