@@ -22,13 +22,13 @@ document.addEventListener("DOMContentLoaded",() =>
     if (dropdown.value == 'Background')
     {
       maintext.style.backgroundColor = thergb;
-      maintext.style.backgroundsize = usewith;
+      maintext.style.width = usewith;
       console.log("background test");
     }
     else
     {
-      maintext.style.borderColor = thergb;
-      maintext.style.borderWidth = usewith;
+      maintext.style.color = thergb;
+      maintext.style.width = usewith;
       console.log("border test");
     }
   });
